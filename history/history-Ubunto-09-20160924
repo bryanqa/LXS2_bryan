@@ -1,0 +1,1000 @@
+   92  cd ..
+   93  cd /tmp/
+   94  ls
+   95  git clone https://github.com/emvarg/LXS2_evargas.git
+   96  ls
+   97  cd LXS2_evargas/
+   98  ls
+   99  cd history/
+  100  ls
+  101  history 
+  102  ls
+  103  ls -l
+  104  cd ..
+  105  ls 
+  106  cd scripts/
+  107  ls
+  108  cat TMP_vir.sh 
+  109  cp TMP_vir.sh  ~/LXS2_OSCARG/scripts/
+  110  c ..
+  111  cd ..
+  112  ls
+  113  pwd
+  114  cd /home/
+  115  ls
+  116  cd useradmin/
+  117  ls
+  118  cd LXS2_OSCARG/
+  119  ls
+  120  cd scripts/
+  121  ls
+  122  tmp ls
+  123  cd ..
+  124  git push origin master 
+  125  ls
+  126  cd scripts/
+  127  ls
+  128  cat TMP_vir.sh 
+  129  cd..
+  130  c ..
+  131  cd ..
+  132  git push origin master 
+  133  git status
+  134  cd /tmp/
+  135  ls
+  136  git pull 
+  137  git clone https://github.com/emvarg/LXS2_evargas.git
+  138  git pull
+  139  rm LXS2_evargas/
+  140  ls
+  141  rm LXS2_evargas
+  142  ls
+  143  cd LXS2_evargas/
+  144  ls
+  145  cd scripts/
+  146  ls
+  147  git pull
+  148  ls
+  149  cat TMP_vir.sh 
+  150  ls
+  151  cat cnts00.sh 
+  152  cp cnts00.sh /home/useradmin/LXS2_OSCARG/scripts/
+  153  cd ..
+  154  cd /home/useradmin/LXS2_OSCARG/scripts/
+  155  ls
+  156  git add cnts00.sh
+  157  git status
+  158  git commit -m
+  159  git commit -m "Bash creacion de MV"
+  160  git push origin master 
+  161  ls
+  162  sudo ./cnts00.sh
+  163  chmod cnts00.sh 
+  164  sudo bash cnts00.sh
+  165  ls -l
+  166  chmod 750 cnts00.sh 
+  167  ls -l
+  168  sudo ./cnts00.sh
+  169  mkdir /srv/servidores
+  170  sudo ./cnts00.sh
+  171  ls
+  172  vim cnts00.sh 
+  173  sudo ./cnts00.sh
+  174  vim cnts00.sh 
+  175  cd /home/useradmin/
+  176  ls
+  177  cd Downloads/
+  178  ls
+  179  cd..
+  180  cd /home/useradmin/LXS2_OSCARG/
+  181  ls
+  182  -l
+  183  ls -l
+  184  exit
+  185  clear
+  186  sudo -s
+  187  pwd
+  188  ls
+  189  sudo -s
+  190  ls -l
+  191  cd LXS2_OSCARG/
+  192  ls
+  193  cd history/
+  194  ls
+  195  history > history_12072016
+  196  ls 
+  197  cat history_12072016 
+  198  ls
+  199  git add history_12072016 
+  200  git status
+  201  git commit -m "history de la clase MV"
+  202  git push origin master 
+  203  git status
+  204  git add ../scripts/cnts00.sh 
+  205  ls -l ../scripts/cnts00.sh 
+  206  sudo chown useradmin:useradmin ../scripts/cnts00.sh
+  207  ls -l ../scripts/cnts00.sh 
+  208  git add ../scripts/cnts00.sh 
+  209  git status 
+  210  ls
+  211  mv history-root_12072016~Ubunto-09 history-root_12072016-Ubunto-09 
+  212  ls -l
+  213  sudo chown useradmin:useradmin history-root_12072016-Ubunto-09 
+  214  git status 
+  215  git add history-root_12072016-Ubunto-09 
+  216  git add ../scripts/TMP_vir.sh 
+  217  git status 
+  218  git commit -m "Scripts de maquinas virtuales + history de root en lab de LVM"
+  219  git remote -v
+  220  git push origin master 
+  221  history > /home/la
+  222  ls
+  223  cd  useradmin/LXS2_OSCARG/history/history-root_12072016~$hostname
+  224  cd  useradmin/LXS2_OSCARG/history/history-root_12072016~$HOSTNAME
+  225  > useradmin/LXS2_OSCARG/history/history-root_12072016~$HOSTNAME
+  226  LS
+  227  CD ..
+  228  la
+  229  ls
+  230  cd /
+  231  ls
+  232  cd home/
+  233  ls
+  234  > useradmin/LXS2_OSCARG/history/history-root_12072016~$HOSTNAME
+  235  ls
+  236  ls -l useradmin/LXS2_OSCARG/history/history-root_12072016~$HOSTNAME
+  237  chown useradmin/LXS2_OSCARG/history/history-root_12072016~$HOSTNAME
+  238  chown useradmin:cursoti14 useradmin/LXS2_OSCARG/history/history-root_12072016~$HOSTNAME
+  239  cd /
+  240  ls
+  241  cd home/
+  242  ls
+  243  cd useradmin/
+  244  ls
+  245  cd LXS2_OSCARG/
+  246  ls
+  247  vim history/
+  248  apt-get install vim
+  249  vim history/
+  250  ls
+  251  pwd
+  252  cd ..
+  253  ls
+  254  sudo -s
+  255  id useradmin
+  256  w
+  257  sudo -s
+  258  cd Downloads/
+  259  ls
+  260  pwd
+  261  cd Dow
+  262  git config --global user.email "oscarg1677@gmail.com"
+  263  cd ..
+  264  pwd
+  265  ls -l
+  266  cd useradmin/
+  267  ls
+  268  cd LXS2_OSCARG/
+  269  ls
+  270  cd ..exit
+  271  cd ..
+  272  cd //
+  273  cd ...
+  274  cd /
+  275  ls
+  276  cd /srv/
+  277  ls
+  278  cd servidores/
+  279  ls
+  280  ls -l
+  281  mkdir respaldos
+  282  ls
+  283  ip -4 addr
+  284  sudo apt-get install htop
+  285  ls -l
+  286  ls -lh
+  287  ped
+  288  pwd
+  289  pwed
+  290  env
+  291  env | grep PWD
+  292  ECHO $USER
+  293  echo $user
+  294  echo $USER
+  295  vim /etc/bash.bashrc 
+  296  history 
+  297  vim .bashrc
+  298  vim /etc/bash.bashrc 
+  299  ls
+  300  exit
+  301  too
+  302  cd LXS2_OSCARG/
+  303  ls
+  304  cd scripts/
+  305  ls
+  306  clear
+  307  sudo -s
+  308  exit
+  309  la
+  310  ls
+  311  cd LXS2_OSCARG/
+  312  ls
+  313  cd history/
+  314  ls
+  315  git clone -b master https://github.com/emvarg/LXS2_evargas.git
+  316  ls
+  317  cd LXS2_evargas/
+  318  ls
+  319  cd history/
+  320  ls
+  321  cat history_12072016_ubn000
+  322  clear
+  323  cat history_12072016_ubn000
+  324  clear
+  325  ls
+  326  cat history-root_12072016-ubn000_FinalDeClase 
+  327  clear
+  328  ls
+  329  cat history-root_12072016-ubn000
+  330  clear
+  331  ls
+  332  cat history_12
+  333  cat history_12072016_ubn000
+  334  clear
+  335  ls
+  336  cat history_05072016 
+  337  clear
+  338  virt
+  339  virsh
+  340  ssh oscar@192.168.122.66
+  341  yum apdate
+  342  ssh oscar@192.168.122.66
+  343  ssh root@192.168.122.66
+  344  sudo apt-get install catdoc
+  345  cd /sbin/bash
+  346  cd /sbin
+  347  ls
+  348  cd bash
+  349  cd ..
+  350  ls
+  351  cd /sbin/bash
+  352  sudo cd /sbin/bash
+  353  ls
+  354  cd /bin/bash
+  355  sudo cd /bin/bash
+  356  ls
+  357  man bash
+  358  echo $bash
+  359  ls
+  360  echo #SHELL
+  361  hepl
+  362  3
+  363  ls
+  364  ped
+  365  pwd
+  366  cd /home/
+  367  LS
+  368  ls
+  369  cd useradmin/
+  370  ls
+  371  history 
+  372  history > /tmp/file01
+  373  cd /tmp/
+  374  ls
+  375  cd ..
+  376  cd /dev/
+  377  cat input/mouse0 
+  378  sudo cat input/mouse0 
+  379  clear
+  380  nmap
+  381  cd ..
+  382  exit
+  383  cd /tmp/
+  384  ls
+  385  ls -la
+  386  history > file01 
+  387  ls -l file01 
+  388  dmesg > file01 
+  389  ls -l file01 
+  390  ls -la
+  391  history > file01 
+  392  ls -l file01 
+  393  dmesg | tail >> file01 
+  394  lss file01 
+  395  less file01 
+  396  cp playa /home/
+  397  cp playa ~ 2> error.log
+  398  cp playa ~ >> error.log
+  399  cp playa ~ 2>> error.log
+  400  less error.log 
+  401  cat error.log 
+  402  dmesg | head file01 
+  403  cat error.log | grep stat > error.log 
+  404  grep stat error.log 
+  405  mkdir folfr{1,2,3}
+  406  mkdir folfr{1,2,3}/file-{a,b}
+  407  ls
+  408  tree
+  409  ls
+  410  mkdir folde-m
+  411  ls
+  412  ls -la
+  413  ls -l
+  414  ls
+  415  mv folfr1
+  416  ls -la
+  417  echo lolo
+  418  echo $HOSTNAME
+  419  echo yo tengo $100
+  420  echo yo tengo \$100"
+  421  Q
+  422  C
+  423  echo 
+  424  4
+  425  *
+  426  2
+  427  >
+  428  echo 4*2>10 es falso
+  429  ls
+  430  cp 10 /folde-m
+  431  cp 10 folde-m
+  432  cd ls -l
+  433  cd ls -la
+  434  cd ls 
+  435  ls 
+  436  cd folde-m/
+  437  ls
+  438  mv folfr01
+  439  m folfr01
+  440  mv folfr01
+  441  mv help
+  442  ls
+  443  mn /tmp/folr1 /folde-m
+  444  sudo apt-get install mininet
+  445  history > histoty_'date +%Y%m%d '
+  446  htop 
+  447  pstree | less
+  448  ps aux | grep ligh
+  449  sudo kill -9 1312
+  450  sudo kill -9 1394
+  451  ps aux | grep ligh
+  452  sudo kill -9 1257
+  453  sudo kill -9 5306
+  454  pstree | less
+  455  ps
+  456  ps aux | less
+  457  yes  &
+  458  ps aux | grep sshd
+  459  netstat -ltunp
+  460  jobs
+  461  ping 127.0.0.1 > /dev/null &
+  462  jobs
+  463  ps
+  464  ps -l
+  465  ping 127.0.0.1 > /dev/null &
+  466  ps -l
+  467  exit
+  468  ls
+  469  cd LXS2_OSCARG/
+  470  ls
+  471  cd history/
+  472  ls
+  473  ls 
+  474  cd /bin/
+  475  ls
+  476  vim bash 
+  477  cd /bin
+  478  ls -la
+  479  cd history/
+  480  cd ...
+  481  cd ..
+  482  cd /bin/
+  483  pwd
+  484  cd ..
+  485  pwd
+  486  cd /home/useradmin/
+  487  ls
+  488  vim .bashrc 
+  489  nano .bashrc 
+  490  history 
+  491  sudo -s history 
+  492  history 
+  493  exit
+  494  pwd
+  495  cd ..
+  496  pwd
+  497  vim .bashrc
+  498  ps -u mysql
+  499  jobs -l
+  500  exit
+  501  ps -u 
+  502  sudo ps -u
+  503  sudo -s
+  504  ls
+  505  pwd
+  506  sudo nice -n -19 yes hola mundo > /dev/null &
+  507  jobs -l
+  508  ps -l
+  509  ps -la
+  510  sudo renice -n  2 -p 3804
+  511  ps -la
+  512  jobs -l
+  513  sudo kill 3803
+  514  jobs -l
+  515  htop 
+  516  clear
+  517  bash --vervion
+  518  cd /home/useradmin/LXS2_OSCARG/history/
+  519  ls
+  520  cd ..
+  521  cd scripts/
+  522  ls
+  523  cat cnts00.sh 
+  524  nano /bin/bash 
+  525  cd /bin/
+  526  ls
+  527  cd /bash
+  528  cd bash
+  529  vim bash 
+  530  cd..
+  531  cd ..
+  532  clear
+  533  pwd
+  534  cd /home/useradmin/
+  535  pwd
+  536  ls
+  537  cd LXS2_OSCARG/
+  538  ls
+  539  cd scripts/
+  540  cd ..
+  541  ls
+  542  cd src/
+  543  namo Specvar.sh
+  544  nano Specvar.sh
+  545  ls -la
+  546  bash Specvar.sh 
+  547  ls -l
+  548  cat Specvar.sh
+  549  dmesg | tail > archivo1.txt
+  550  ls -l
+  551  bash Specvar.sh 
+  552  ls -l
+  553  rm archivo1.txt*
+  554  ls -l
+  555  rm file1 
+  556  ls -l
+  557  rm Specvar.sh.error 
+  558  ls 
+  559  bash Specvar.sh 
+  560  echo $ERRORLOG
+  561  dmesg | tail > archivo1.txt
+  562  ls
+  563  bash Specvar.sh 
+  564  dmesg | tail > archivo1.txt
+  565  ls -l
+  566  dmesg | tail > archivo1.txt
+  567  ls
+  568  dmesg | tail > archivo1.txt
+  569  ls -la
+  570  sudo apt-get install exim4
+  571  sudo nano /etc/exim4/update-exim4.conf.conf 
+  572  sudo dpkg-reconfigure exim4-config
+  573  tail /etc/exim4/update-exim4.conf.conf 
+  574  sudo update-exim4.conf
+  575  echo "este es mi primer correo" | mail -s "prueba de correo" oscarg1677@gmail.com
+  576  echo "este es mi primer correo" | mail -s "prueba de correo" oscarg1677@gmail.comls -l
+  577  ls -l
+  578  bash Specvar.sh 
+  579  ls -la
+  580  ls 
+  581  ls  -l
+  582  cd LXS2_OSCARG/
+  583  ls
+  584  tree
+  585  ls
+  586  clear
+  587  history > /home/useradmin/LXS2_OSCARG/history/History_22072016
+  588  git add history/History_22072016 
+  589  git push origin master 
+  590  git commit "history ma_clases useradmin"
+  591  git commit -m "history ma_clases useradmin"
+  592  git status
+  593  git pull origin master 
+  594  oscargarcia123
+  595  Abc123.$
+  596  git pull origin master 
+  597  git status
+  598  update
+  599  uptime
+  600  htop 
+  601  ls
+  602  cd history/
+  603  ls
+  604  ls -l
+  605  git push origin master 
+  606  git pull origin master 
+  607  ls
+  608  git add History_22072016 
+  609  git status
+  610  git rv LXS2_evargas/
+  611  git status
+  612  git rv LXS2_evargas/
+  613  git rm LXS2_evargas/
+  614  ls
+  615  git status
+  616  git add History_22072016 
+  617  git pull  origin master 
+  618  git status
+  619  ls
+  620  cd LXS2_OSCARG/
+  621  cd history/
+  622  ls
+  623  cd ..
+  624  history > history/history_22-07-2016_1
+  625  ls
+  626  cd history/
+  627  ls
+  628  cd ..
+  629  cd history/
+  630  ls
+  631  git status
+  632  git add history_22-07-2016_1 
+  633  git status
+  634  sudo rm LXS2_evargas/
+  635  git commit -m "final de clase oscar"
+  636  git push origin master 
+  637  git staus
+  638  git status
+  639  git add history_22-07-2016_1 
+  640  git commit -m "final de clase oscar"
+  641  git push origin master 
+  642  git pull origin master 
+  643  git remote -v
+  644  cd ..
+  645  ls
+  646  ls -la
+  647  ls scripts/
+  648  sudo chown useradmin:useradmin -R scripts/
+  649  ls -l
+  650  ls -la
+  651  git pull origin master 
+  652  sudo chown useradmin:useradmin -R *
+  653  git pull origin master 
+  654  sl
+  655  ls
+  656  exit
+  657  git pull 
+  658  cd ..-
+  659  ls
+  660  cd LXS2_OSCARG/
+  661  ls
+  662  git pull
+  663  ls
+  664  ip -4 addr
+  665  ip -4 add
+  666  ping www.google.com
+  667  git pull
+  668  cd history/
+  669  git pull
+  670  cd ..
+  671  ls -la
+  672  git clone https://github.com/oscargarcia123/LXS2_OSCARG.git
+  673  ls
+  674  cd ..
+  675  git clone https://github.com/oscargarcia123/LXS2_OSCARG.git
+  676  oscargarcia123
+  677  Abc123.$
+  678  ls
+  679  git clone https://github.com/oscargarcia123/LXS2_OSCARG.git
+  680  cd LXS2_OSCARG/
+  681  ls
+  682  cd LXS2_OSCARG/
+  683  ls
+  684  cd ..
+  685  rm LXS2_OSCARG/
+  686  ls
+  687  sudo rm LXS2_OSCARG/
+  688  ls
+  689  clear
+  690  ls
+  691  git pull
+  692  sudo git pull
+  693  clear
+  694  sudo git pull
+  695  git push origin master 
+  696  git ststus
+  697  git status
+  698  git add history/history-proy-R2 
+  699  git add history/history-proy01-R1 
+  700  git add history/history-root_12072016-ubn000
+  701  git add history/history-root_12072016-ubn000_FinalDeClase 
+  702  git add history/history_12072016_ubn000
+  703  git add history/history_12072016_ubn000-FinalDeClase 
+  704  git add history/history_15072016_ubn000 
+  705  git add hojasExcel/
+  706  git add src/Specvar.sh 
+  707  git add src/error1.log 
+  708  git add src/problema1.sh 
+  709  git add tareas/LXS2_TAREA1.odt 
+  710  git status
+  711  git add history/history-root_15072016-ubn000 
+  712  git add problema1/
+  713  git add src/archivo1.txt 
+  714  git staus
+  715  git status
+  716  ls
+  717  rm history/LXS2_evargas/
+  718  sudo rm history/LXS2_evargas/
+  719  git status
+  720  git add history/LXS2_evargas/
+  721  git status
+  722  git commit -m "pull de maquina U "
+  723  git commit -m "pull de maquina U"
+  724  tree
+  725  git commit -m "pull de maquina U"
+  726  git pull
+  727  git push origin master 
+  728  ls
+  729  cd history/
+  730  ls
+  731  cd LXS2_evargas/
+  732  ls
+  733  cd ..
+  734  tree
+  735  git commit -m "pull de maquina U"
+  736  git status
+  737  git pull
+  738  sudo git commit -m "pull de maquina U"
+  739  git push origin master 
+  740  sudo git push origin master 
+  741  git pull
+  742  tree
+  743  clear
+  744  cd src/
+  745  ls
+  746  nano problema1.sh 
+  747  ./problema1.sh 
+  748  cd ..
+  749  git push origin master 
+  750  git add -i
+  751  git commit -m "pull de maquina U"
+  752  git push origin master 
+  753  git pull
+  754  git status
+  755  git add src/problema1.sh 
+  756  git add history/history_05072016 
+  757  git pull
+  758  git status
+  759  CLEAR
+  760  clear
+  761  git status
+  762  git rm  history/LXS2_evargas .gitignore 
+  763  sudo git rm  history/LXS2_evargas .gitignore 
+  764  git status
+  765  git rm  history/LXS2_evargas .gitignore -r
+  766  git status
+  767  git commit -m "pull de maquina U"
+  768  git push origin master 
+  769  git pull
+  770  git commit -m "pull de maquina U"
+  771  git push origin master 
+  772  git status
+  773  git add src/problema1.sh 
+  774  git commit -m "pull de maquina U"
+  775  git pull
+  776  git commit -m "pull de maquina U"
+  777  git pull
+  778  git push origin master 
+  779  git status
+  780  git clear
+  781  clear
+  782  git status
+  783  tree
+  784  cd src/
+  785  ls
+  786  nano Specvar.sh 
+  787  nano problema1.sh 
+  788  ./problema1.sh 
+  789  nano problema1.sh 
+  790  ./problema1.sh 
+  791  nano problema1.sh 
+  792  ./problema1.sh 
+  793  bash problema1.sh 
+  794  nano problema1.sh 
+  795  ./problema1.sh 
+  796  nano problema1.sh 
+  797  ./problema1.sh 
+  798  nano problema1.sh 
+  799  ./problema1.sh 
+  800  nano problema1.sh 
+  801  ./problema1.sh 
+  802  nano problema1.sh 
+  803  ./problema1.sh 
+  804  nano problema1.sh 
+  805  ./problema1.sh 
+  806  nano problema1.sh 
+  807  ./problema1.sh 
+  808  nano problema1.sh 
+  809  ./problema1.sh 
+  810  nano problema1.sh 
+  811  ./problema1.sh 
+  812  nano problema1.sh 
+  813  ip -d addr
+  814  ls
+  815  nano problema1.sh 
+  816  ./problema1.sh 
+  817  ls
+  818  nano problema1.sh 
+  819  ./problema1.sh 
+  820  nano problema1.sh 
+  821  ./problema1.sh 
+  822  nano problema1.sh 
+  823  ./problema1.sh 
+  824  nano problema1.sh 
+  825  ./problema1.sh 
+  826  nano problema1.sh 
+  827  ./problema1.sh 
+  828  cd ..
+  829  tree
+  830  sudo apt-get openssh
+  831  sudo apt-get openssh-server
+  832  sudo apt-get install openssh-server
+  833  pwd
+  834  cd ..
+  835  pwd
+  836  ls
+  837  cd useradmin/
+  838  ls
+  839  cd LXS2_OSCARG/
+  840  ls
+  841  cd hojasExcel/
+  842  ls
+  843  cd hojasDatos/
+  844  ls
+  845  pwd
+  846  cd LXS2_OSCARG/
+  847  ls
+  848  history
+  849  cd history/
+  850  history >> history_26072016_MLUCR
+  851  LS
+  852  ls
+  853  cd ..
+  854  git status
+  855  git add hojasExcel/hojasDatos/datos_csv/dato-
+  856  git add src/error1.log 
+  857  git add src/problema1.sh
+  858  git add history/history_26072016_MLUCR 
+  859  git add hojasExcel/hojasDatos/datos_csv/dato-1.csv 
+  860  git add hojasExcel/hojasDatos/datos_csv/dato-2.csv 
+  861  git add hojasExcel/hojasDatos/datos_csv/dato-3.csv 
+  862  git add hojasExcel/hojasDatos/datos_csv/dato-4.csv 
+  863  git add src/problema1.sh.save 
+  864  git status
+  865  git add hojasExcel/hojasDatos/datos_csv/dato-0.csv 
+  866  git add hojasExcel/hojasDatos/datos_csv/dato-1.csv 
+  867  git status
+  868  git add hojasExcel/hojasDatos/datos_csv/dato-1.csv 
+  869  sudo git add hojasExcel/hojasDatos/datos_csv/dato-1.csv 
+  870  git status
+  871  git commit -m "cambios de los archivos"
+  872  sudo git commit -m "cambios de los archivos"
+  873  git pull
+  874  git push origin master 
+  875  git pull
+  876  cd ..
+  877  sudo apt-get install java
+  878  sudo apt-get install qumo
+  879  sudo apt-get install Apache2
+  880  locate  apache2
+  881  lacate "*.iso"
+  882  locate "*.iso"
+  883  ls
+  884  cd LXS2_OSCARG/
+  885  ls
+  886  tree
+  887  cd ..
+  888  ls
+  889  visudo -x
+  890  visudo --x
+  891  visudo -x 
+  892  cd /etc/
+  893  ls
+  894  sudo sodores -c
+  895  sudo sodoers -c
+  896  sudo apt-get install sudoers
+  897  man visudo
+  898  cd ..
+  899  clear
+  900  sudo adduser user1
+  901  ls
+  902  ls -l
+  903  sudo adduser user1
+  904  sudo adduser user2
+  905  ls
+  906  ip -4 addr
+  907  sudo apt-get install java
+  908  treee
+  909  tree
+  910  sudo useradd sysadmin
+  911  sudo usermod -a -G sudo sysadmin
+  912  id sysadmin
+  913  userdel sysadmin 
+  914  sudo userdel sysadmin 
+  915  sudo useradd sysadmin 
+  916  sudo userdel sysadmin
+  917  sudo useradd sysadmin 
+  918  sudo usermod -a -G sudo sysadmin
+  919  sudo userdel sysadmin
+  920  id
+  921  sudo apt-get install .git
+  922  history
+  923  git config --global user.name "Bryan Q"
+  924  it config --global user.email bryanq99@gmail.com
+  925  git config --global user.email bryanq99@gmail.com
+  926  git clone https://github.com/emvarg/LXS2_emmanuel.git repo-bryan
+  927  cd repo-bryan
+  928  ls -l
+  929  git remote -v
+  930  git remote add otrorepo https://github.com/bryanqa/LXS2_bryan 
+  931  git remote -v
+  932  git pull origin 
+  933  git pull otrorepo 
+  934  git pull origin 
+  935  git status 
+  936  git remote -v
+  937  ls 
+  938  git remote -v
+  939  cd
+  940  ls
+  941  git pull origin master
+  942  history 
+  943  git clone https://github.com/emvarg/LXS2_emmanuel.git repo-bryan
+  944  ls
+  945  cd repo-bryan
+  946  ls
+  947  cd misc
+  948  ls
+  949  cd
+  950  git pull origin master
+  951  re -r repo-bryan
+  952  rm -r repo-bryan
+  953  git pull origin master
+  954  cd repo-bryan
+  955  git pull origin master
+  956  git push origin master
+  957  git log
+  958  history 
+  959  git clone https://github.com/emvarg/LXS2_emmanuel.git bryan-repo
+  960  cd
+  961  ls
+  962  git clone https://github.com/emvarg/LXS2_emmanuel.git class3-bryan
+  963  ls
+  964  cd class3-bryan
+  965  ls
+  966  cd misc/
+  967  ls
+  968  git clone https://github.com/emvarg/LXS2_emmanuel.git 
+  969  cd
+  970  ls
+  971  git clone https://github.com/emvarg/LXS2_emmanuel.git 
+  972  ls
+  973  cd LXS2_emmanuel
+  974  git pull origin master 
+  975  ls
+  976  cd misc
+  977  ls
+  978  cd
+  979  git clone https://github.com/emvarg/LXS2_emmanuel.git LXS2_bryan.git
+  980  cd
+  981  ls
+  982  git clone https://github.com/emvarg/LXS2_emmanuel.git LXS2_bryan
+  983  ls
+  984  git pull origin ma
+  985  git clone https://github.com/emvarg/LXS2_emmanuel.git LXS2_bryan
+  986  ls
+  987  cd LXS2_bryan
+  988  ls
+  989  cs misc/
+  990  cd misc/
+  991  ls
+  992  mkdir clase3
+  993  cd clase3
+  994  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | awk -F" " '{print $2}' | sort > red-blanca
+  995  cd
+  996  cd LXS2_bryan
+  997  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | awk -F" " '{print $2}' | sort > red-blanca
+  998  cd clase3
+  999  ls
+ 1000  cd misc
+ 1001  cd clase3
+ 1002  cd ..
+ 1003  ls
+ 1004  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | awk -F" " '{print $2}' | sort > red-blanca
+ 1005  cd clase3
+ 1006  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | awk -F" " '{print $2}' | sort > red-blanca
+ 1007  cd ..
+ 1008  cp dhcpd.conf /LXS2_bryan/misc/clase3
+ 1009  cp dhcpd.conf /clase3
+ 1010  sudo cp dhcpd.conf /clase3
+ 1011  cd clase3
+ 1012  ls
+ 1013  cat red-blac
+ 1014  cat red-blanca
+ 1015  ls
+ 1016  cd ..
+ 1017  cp dhcpd.conf clase3/
+ 1018  cd clase3
+ 1019  ls
+ 1020  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | awk -F" " '{print $2}' | sort > red-blanca
+ 1021  cat red-blanca
+ 1022  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "192." | awk -F" " '{print $2}' | sort > red-azul
+ 1023  cat red-azul
+ 1024  ls
+ 1025  cat red-blanca
+ 1026  cat dhcpd.conf 
+ 1027  cat dhcpd.conf | grep fixed
+ 1028  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10.0." | awk -F" " '{print $2}' | sort > red-blanca
+ 1029  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10.2." | awk -F" " '{print $2}' | sort > red-verde
+ 1030  ls
+ 1031  cat red-verde
+ 1032  git remote -v
+ 1033  git commit -m "filtro redes"
+ 1034  git status 
+ 1035  cat red-blanca
+ 1036  cat red-azul
+ 1037  cat red-verde
+ 1038  git push origin master 
+ 1039  git remote -v
+ 1040  git log
+ 1041  git config --global user.name "Bryan Q"
+ 1042  git config --global user.name "bryanq99@gmail.com"
+ 1043  git log
+ 1044  cd
+ 1045  cd LXS2_bryan/misc/clase3
+ 1046  ls
+ 1047  ls -l
+ 1048  cat red-verde
+ 1049  cat red-blanca
+ 1050  git remote -v
+ 1051  cd 
+ 1052  ls
+ 1053  ls LXS2_bryan
+ 1054  ls
+ 1055  cp -r LXS2_bryan/misc/clase3/ .
+ 1056  ls
+ 1057  rm LXS2_bryan
+ 1058  rm  -r LXS2_bryan
+ 1059  sudo rm  -r LXS2_bryan
+ 1060  sudo rm  -r LXS2_bryan.git/
+ 1061  ls
+ 1062  git clone https://github.com/bryanqa/LXS2_bryan_1.git
+ 1063  cd LXS2_bryan_1/
+ 1064  ls
+ 1065  ls -l;
+ 1066  ls -l
+ 1067  cdmis
+ 1068  cd misc/
+ 1069  ls
+ 1070  git remote -v
+ 1071  cp ~/clase3/ .
+ 1072  cp  -r ~/clase3/ .
+ 1073  ls
+ 1074  tere
+ 1075  tree
+ 1076  git status 
+ 1077  git add clase3/
+ 1078  git status 
+ 1079  history 
+ 1080  git commit -m "filtro redes"
+ 1081  git status 
+ 1082  git push origin master 
+ 1083  history 
+ 1084  git sta
+ 1085  git status 
+ 1086  history > history/history-$HOSTNAME-`DATE +%Y%m%d`
+ 1087  history > history/history-$HOSTNAME-`date +%Y%m%d`
+ 1088  ls
+ 1089  cd ..
+ 1090  ls history
+ 1091  history > history/history-$HOSTNAME-`date +%Y%m%d`
