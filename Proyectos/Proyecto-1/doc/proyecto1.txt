@@ -1,15 +1,42 @@
-lvdisplay > lv-original
-pvdisplay > pv-original
-vgdisplay > vg-original
-fdisk -l
-fdisk /dev/sdb
-pvcreate /dev/sdb1
-vgextend centos /dev/sdb1
-lvextend -L+200MB /dev/centos/swap
-lvextend -L+512MB /dev/centos/root
-resize2fs /dev/centos/swap
-xfs_growfs /dev/mapper/centos-root
-lvdisplay > lv-extended
-pvdisplay > pv-extended
-vgdisplay > vg-extended
+lvdisplay > lv-original = crear archivo de lvdisplay 
+
+pvdisplay > pv-original = crear archivo de pvdisplay
+
+vgdisplay > vg-original = crear archivo de vgdisplay
+
+fdisk -l = ver particiones
+
+fdisk /dev/sdb = crear particion del disco agregado
+
+pvcreate /dev/sdb1 = crear volumen fisico
+
+vgextend centos /dev/sdb1 = agregar nuevo disco al volume group centos 
+
+lvextend -L+200MB /dev/centos/swap = agregar 200 MB al volumen logico swap
+
+lvextend -L+512MB /dev/centos/root = agregar 512 MB al volumen logico root
+
+resize2fs /dev/centos/swap = "Este comando me tiro un error ya que el comando es usado para sistemas de archivos ext*, entonces use el siguiente comando 
+
+swapoff /dev/centos/swap
+mkswap /dev/centos/swap
+swapon /dev/centos/lv_swap
+
+Error:
+
+resize2fs 1.42.9 (28-Dec-2013)
+resize2fs: Bad magic number in super-block while trying to open /dev/centos/swap
+Couldn't find valid filesystem superblock.
+
+
+xfs_growfs /dev/mapper/centos-root = LVM usa sistema de archivos xfs, despues de este comando ya me reconocio el nuevo tamaño "df -lh"
+
+
+lvdisplay > lv-extended = crear archivo lvdisplay despues del extendido
+
+pvdisplay > pv-extended = crear archivo pvdisplay despues del extendido
+
+
+vgdisplay > vg-extended = crear archivo vgdisplay despues del extendido
+
 
