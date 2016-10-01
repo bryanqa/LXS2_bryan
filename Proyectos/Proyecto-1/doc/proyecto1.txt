@@ -1,0 +1,15 @@
+lvdisplay > lv-original
+pvdisplay > pv-original
+vgdisplay > vg-original
+fdisk -l
+fdisk /dev/sdb
+pvcreate /dev/sdb1
+vgextend centos /dev/sdb1
+lvextend -L+200MB /dev/centos/swap
+lvextend -L+512MB /dev/centos/root
+resize2fs /dev/centos/swap
+resize2fs /dev/centos/root
+lvdisplay > lv-extended
+pvdisplay > pv-extended
+vgdisplay > vg-extended
+
