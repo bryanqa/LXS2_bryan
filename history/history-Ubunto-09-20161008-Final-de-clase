@@ -1,0 +1,166 @@
+    1  ls
+    2  yes mamn > /dev/null &
+    3  jobs
+    4  ls -l
+    5  apt-get install git
+    6  sudo apt-get install git
+    7  vim /temp/algo
+    8  history | tail
+    9  ps -l
+   10  ls 
+   11  git clone https://github.com/bryanqa/LXS2_bryan
+   12  cd LXS2_bryan/
+   13  LS -L
+   14  ls -l
+   15  history
+   16  ps -l
+   17  ps aux
+   18  ps -l
+   19  jobs
+   20  vim /temp/otro
+   21  fg
+   22  vim /etc/host
+   23  ping 127.0.0.1
+   24  jobs
+   25  ping 127.0.0.1 > /dev/null &
+   26  jobs
+   27  pgrep ping
+   28  kill 12 5235
+   29  sudo kill 12 5235
+   30  history
+   31  fgv
+   32  fg
+   33  jobs
+   34  fg $2
+   35  fg $1
+   36  ping 127.0.0.1 > /dev/null 
+   37  bg 
+   38  bg &4
+   39  bg &2
+   40  jobs
+   41  bg %4
+   42  jobs
+   43  pgrep
+   44  grep
+   45  ps -l
+   46  ps u 
+   47  ps -u
+   48  ps -u | in ping
+   49  ps -u | grep ping
+   50  ps aux
+   51  ps aux | grep apache
+   52  kill 
+   53  jobs 
+   54  pgrep ping
+   55  pgrep algo
+   56  pgrep ping
+   57  kill 5247 
+   58  ping 127.0.0.1 > /dev/null &
+   59  git remote -v
+   60  jobs
+   61  ps -l
+   62  top
+   63  init 0
+   64  su
+   65  sudo su -
+   66  xfce4-session
+   67  startxfce4 
+   68  init 0
+   69  git pull origin master
+   70  ls -l
+   71  mkdir
+   72  cd src/
+   73  ls -l
+   74  vim parametros_posicionales.sh
+   75  ls -l
+   76  bash parametros_posicionales.sh 
+   77  ls -l
+   78  cat parametros_posicionales.sh.err 
+   79  fg
+   80  history 
+   81  git status 
+   82  vim ../.gitignore 
+   83  clear
+   84  git add parametros_posicionales.sh
+   85  git add parametros_posicionales.sh.err 
+   86  git commit -m "Inicio de el script de parametros posicionales"
+   87  git status 
+   88  history 
+   89  git push origin master
+   90  history 
+   91  history
+   92  ls -l
+   93  cd src/
+   94  ls -l
+   95  cd ..
+   96  cd /tmp/
+   97  git clone https://github.com/emvarg/LXS2_emmanuel.git
+   98  ls -l
+   99  cd
+  100  ls LXS2_bryan/
+  101  cd LXS2_bryan/
+  102  cd src/
+  103  find vim
+  104  history 
+  105  vim parametros_posicionales.sh
+  106  chmod 7055 parametros_posicionales.sh
+  107  chmod 7055 parametros_posicionales.sh 
+  108  sudo -su
+  109  su -u
+  110  su
+  111  su -su
+  112  sudo -s
+  113  git status 
+  114  git log 
+  115  vim parametros avanzados.sh
+  116  vim parametros_avanzados.sh
+  117  cat parametros_avanzados.sh 
+  118  bash parametros_avanzados.sh 
+  119  ls -l
+  120  bash parametros_avanzados.sh file
+  121  cat parametros_avanzados.sh 
+  122  vim parametros_avanzados.sh
+  123  git status 
+  124  git add parametros_avanzados.sh 
+  125  git commit -m "paso de parametros avanzados"
+  126  git config --global user.email "bryanq99@gmail.com"
+  127  git config --global user.name "Bryan Quesada"
+  128  git commit -m "paso de parametros avanzados"
+  129  git status
+  130  git add parametros_avanzados.sh 
+  131  git commit -m "paso de parametros avanzados"
+  132  git commit -m "paso de parametros avanzados1"
+  133  git push origin master
+  134  git commit -m "paso de parametros avanzados"
+  135  git status 
+  136  git push origin master
+  137  cd 
+  138  rm -rf LXS2_bryan/
+  139  sudo rm -rf LXS2_bryan/
+  140  git clone https://github.com/bryanqa/LXS2_bryan.git
+  141  cd LXS2_bryan/
+  142  git status 
+  143  cd src/
+  144  vim parametros_posicionales.sh
+  145  vim ARGStest.sh
+  146  git add ARGStest.sh 
+  147  git commit "Esta listo el bloque de validacion de parametros"
+  148  git commit -m "Esta listo el bloque de validacion de parametros"
+  149  git push origin master
+  150  ls -l
+  151  vim ARGStest.sh 
+  152  bash ARGStest.sh 
+  153  bash ARGStest.sh CASA PERRO GATO
+  154  vim ARGStest.sh 
+  155  bash ARGStest.sh CASA PERRO GATO
+  156  vim ARGStest.sh 
+  157  bash ARGStest.sh CASA PERRO GATO
+  158  vim ARGStest.sh 
+  159  bash ARGStest.sh CASA PERRO GATO
+  160  vim ARGStest.sh 
+  161  bash ARGStest.sh CASA PERRO GATO
+  162  git add ARGStest.sh 
+  163  git commit -m "Imprimo los parametros del script"
+  164  git push origin master
+  165  cd ..
+  166  history > history/history-$HOSTNAME-`date +%Y%m%d`-Final-de-clase
