@@ -1,9 +1,9 @@
 #!/bin/bash
 
 DATA=./hojasDatos
-mkdir %DATA/datos_csv
+mkdir $DATA/datos_csv
 
-OUT_DATA=$DATA/archivos_csv
+OUT_DATA=$DATA/datos_csv
 
 m=0
 
