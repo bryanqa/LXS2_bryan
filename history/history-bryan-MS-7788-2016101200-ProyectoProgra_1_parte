@@ -1,0 +1,448 @@
+    1  git status 
+    2  ls -l
+    3  cd Proyecto-2/
+    4  LS -L
+    5  ls -l
+    6  cd Archivos_originales/
+    7  ls -l
+    8  cd Proyecto-de-Programacion/
+    9  ls -l
+   10  cd problema1/
+   11  ls -l
+   12  cat problema1.sh 
+   13  bash problema1.sh 
+   14  vim problema1.sh 
+   15  bash problema1.sh 
+   16  ls -l
+   17  cat problema1.sh 
+   18  ls -l
+   19  ls -l hojasDatos/
+   20  ls -l ./hojasDatos/datos_csv/
+   21  cd hojasDatos/
+   22  cd ..
+   23  ls .l
+   24  ls -l
+   25  rm -rf data-1.csv 
+   26  rm -r error1.log 
+   27  ls -l
+   28  ls -l ./Datos 
+   29  cd hojasDatos/
+   30  ls -l
+   31  cd datos_csv/
+   32  ls -l
+   33  cd ..
+   34  ls -l
+   35  rm -rf datos_csv/
+   36  rm -r data-1.csv 
+   37  ls -l
+   38  cd ..
+   39  ls -l
+   40  bash problema1.sh 
+   41  ls -l
+   42  cd hojasDatos/
+   43  ls -l
+   44  cd datos_csv/
+   45  ls -l
+   46  cd ..
+   47  ls -l
+   48  cd ..
+   49  ls -l
+   50  cat error1.log 
+   51  cat problema1.sh 
+   52  DATA=./hojasDatos
+   53  OUT_DATA=$DATA/datos_csv
+   54  m=0
+   55  for i in `find $DATA -name ʼ*xlsʼ `; 
+   56  for i in `find $DATA -name ʼ*xlsʼ `
+   57  for i in `find $DATA`
+   58  echo $DATA
+   59  ls -l
+   60  cat problema1.sh 
+   61  for i in `find $DATA -name`
+   62  for i in `find $DATA -name `
+   63  for i in find 
+   64  for i 
+   65  for i in find $DATA -name '*.xls'  
+   66  echo $i
+   67  for i in find $DATA -name '*.xls'  
+   68  in find $DATA -name '*.xls'  
+   69  find $DATA -name '*.xls'  
+   70  find $DATA -name '*.xl'  
+   71  find $DATA -name '*.xls'  
+   72  find $DATA -name '*.dato'  
+   73  find $DATA -name '*.datos'  
+   74  find $DATA -name '*datos'  
+   75  find $DATA -name 'datos'  
+   76  find $DATA -name '*.xls'  
+   77  history 
+   78  cat problema1.sh 
+   79  find $DATA -name ʼ*xlsʼ
+   80  `find $DATA -name ʼ*xlsʼ `
+   81  history 
+   82  find $DATA -name '*.xls'
+   83  find $DATA -name ʼ*xlsʼ
+   84  find $DATA -name '*.xls'
+   85  vim problema1.sh 
+   86  bash problema1.sh 
+   87  ls -l hojasDatos/
+   88  ll -l hojasDatos/datos_csv/
+   89  rm -rf ./hojasDatos/datos_csv/
+   90  ls -l ./hojasDatos/
+   91  ls -l
+   92  cat error1.log 
+   93  echo $DATA
+   94  cat problema1.sh 
+   95  vim problema1.sh 
+   96  bash problema1.sh 
+   97  ls -l ./hojasDatos/datos_csv/
+   98  rm -rf ./hojasDatos/datos_csv/
+   99  ls -l
+  100  cat error1.log 
+  101  cat problema1.sh 
+  102  find $DATA -name `*.xls`
+  103  find $DATA -name "*.xls"
+  104  vim problema1.sh 
+  105  ls -l ./hojasDatos/
+  106  rm -r error1.log 
+  107  bash problema1.sh 
+  108  cat error1.log 
+  109  ls -l ./hojasDatos/
+  110  ls -l ./hojasDatos/datos_csv/
+  111  rm -rf ./hojasDatos/datos_csv/
+  112  rm -r error1.log 
+  113  ls -l hojasDatos/
+  114  vim problema1.sh 
+  115  ls -l hojasDatos/
+  116  cat problema1.sh 
+  117  find $DATA -name "*.xls"
+  118  find $DATA -name "*.xls" sort -n
+  119  find $DATA -name "*.xls" sort 
+  120  find $DATA -name "*.xls" sort -d
+  121  find sort -d $DATA -name "*.xls" 
+  122  sort -d $DATA -name "*.xls" 
+  123  sort --help
+  124  find $DATA -name "*.xls" -lname
+  125  find $DATA -name "*.xls" -lname 1 
+  126  find $DATA -name "*.xls" -print0 
+  127  find $DATA -name "*.xls" -print1
+  128  find $DATA -name "*.xls" -print0
+  129  find $DATA -name "*.xls" 
+  130  find $DATA -name "*.xls" | sort -n
+  131  cat problema1.sh 
+  132  `find $DATA -name "*.xls"
+
+  133  find $DATA -name "*.xls"
+  134  vim problema1.sh 
+  135  cat problema1.sh 
+  136  find $DATA -name "*.xls" | sort -n
+  137  ls -l ./hojasDatos/
+  138  ls -l
+  139  cat problema1.sh 
+  140  bash problema1.sh 
+  141  cat error1.log 
+  142  vim problema1.sh 
+  143  rm -r error1.log 
+  144  rm -rf ./hojasDatos/datos_csv/
+  145  ls -l ./hojasDatos/
+  146  bash problema1.sh 
+  147  git add ../problema1/
+  148  git status
+  149  git commit -m "Proceso final cambiando extension a archivos .xls"
+  150  git push origin proyecto_programado 
+  151  tree
+  152  vim problema1.sh 
+  153  rm -r error1.log 
+  154  rm -rf ./hojasDatos/datos_csv/
+  155  bash problema1.sh 
+  156  history 
+  157  git add ../problema1/
+  158  git add -A
+  159  git add -all
+  160  git add --all
+  161  gist status
+  162  git status
+  163  history 
+  164  git commit -m "Proceso final cambiando extension a archivos .xls"
+  165  git push origin proyecto_programado 
+  166  tree
+  167  file ./hojasDatos/datos_csv/data-0.csv 
+  168  file ./hojasDatos/datos1.xls 
+  169  cat ./hojasDatos/datos_csv/data-0.csv 
+  170  file ./hojasDatos/datos_csv/data-0.csv 
+  171  file ./hojasDatos/datos1.xls 
+  172  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" {Datos,error1.log,hojasDatos,problema1.sh `{print $1 "  " $2 " " $3 " " $4 " " $5}` | head
+  173  history 
+  174  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" `{print $1 "  " $2 " " $3 " " $4 " " $5}` | head
+  175  history 
+  176  print 
+  177  print /home/
+  178  sudo apt-get install print
+  179  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" `{print $1 "  " $2 " " $3 " " $4 " " $5}` | head
+  180  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" "{print $1 "  " $2 " " $3 " " $4 " " $5}" | head
+  181  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" `print $1 "  " $2 " " $3 " " $4 " " $5` | head
+  182  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" `{print $1 "  " $2 " " $3 " " $4 " " $5`} | head
+  183  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" `{ print $1 "  " $2 " " $3 " " $4 " " $5`} | head
+  184  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" `{ print $1 "  " $2 " " $3 " " $4 " " $5` | head
+  185  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" ` print $1 "  " $2 " " $3 " " $4 " " $5` | head
+  186  cat ./hojasDatos/datos_csv/data-0.csv 
+  187  cat ./hojasDatos/datos_csv/data-0.csv | head
+  188  cat ./hojasDatos/datos_csv/data-0.csv | awk -F" " '{print $2}' 
+  189  cat ./hojasDatos/datos_csv/data-0.csv | awk -F" " '{print $2}' | head
+  190  cat ./hojasDatos/datos_csv/data-0.csv | awk -F" " '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  191  cat ./hojasDatos/datos_csv/data-0.csv | awk -F" \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  192  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  193  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\""'{print $1 " " $2 " " $3 " " $4 " "}' | head
+  194  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  195  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\" " '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  196  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \" ,\" " '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  197  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\ " ,\" " '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  198  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\ ",\" " '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  199  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  200  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/"//g'| head
+  201  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/"//'| head
+  202  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/"//g'| head
+  203  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/"//'| head
+  204  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed ',$ s/"//'| head
+  205  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed ,$ s/"//| head
+  206  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/"//'| head
+  207  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  208  cat ./hojasDatos/datos_csv/data-0.csv | head
+  209  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/"//'| head
+  210  cat ./hojasDatos/datos_csv/data-0.csv | head
+  211  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/"//'| head
+  212  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  213  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\" " '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  214  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\" " '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  215  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  216  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/"//g'| head
+  217  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/",/ /g'| head
+  218  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/,/ /g'| head
+  219  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/", "/ /g'| head
+  220  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/",/ /g'| head
+  221  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/", / /g' |sed '1,$ s/"/ /g'| head
+  222  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/, / /g' |sed '1,$ s/"/ /g'| head
+  223  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/"/ /g'| head
+  224  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s"/ /g'| head
+  225  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/"/ /g'| head
+  226  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/"/ g'| head
+  227  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/"/ /g'| head
+  228  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/"/ /'| head
+  229  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/"/ /g'| head
+  230  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ /"/ /g'| head
+  231  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1, s/"/ /g'| head
+  232  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ /"/ /g' , |sed '1,$ /,/ /g' | head
+  233  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1, s/"/ /g' | head 
+  234  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1, s/"/ /g'| head 
+  235  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ /"/ /g' , |sed '1,$ /,/ /g' | head
+  236  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1, s/"/ /g'| head
+  237  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/"/ /g'| head
+  238  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}'| head
+  239  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\ \"" '{print $1 " " $2 " " $3 " " $4 " "}'| head
+  240  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\,\"" '{print $1 " " $2 " " $3 " " $4 " "}'| head
+  241  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \ ",\,\"" '{print $1 " " $2 " " $3 " " $4 " "}'| head
+  242  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\,"\,\"" '{print $1 " " $2 " " $3 " " $4 " "}'| head
+  243  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\"\,\"" '{print $1 " " $2 " " $3 " " $4 " "}'| head
+  244  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\" \,\"" '{print $1 " " $2 " " $3 " " $4 " "}'| head | sed 
+  245  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\"\,\ "" '{print $1 " " $2 " " $3 " " $4 " "}'| head
+  246  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\"\,\"" '{print $1 " " $2 " " $3 " " $4 " "}'| head
+  247  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\,"\,\"" '{print $1 " " $2 " " $3 " " $4 " "}'| head
+cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\,\"" '{print $1 " " $2 " " $3 " " $4 " "}'| head
+
+  248  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' 
+  249  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  250  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1  $2 " " $3 " " $4 " "}' | head
+  251  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  252  cat ./hojasDatos/datos_csv/data-0.csv 
+  253  cat ./hojasDatos/datos_csv/data-0.csv | awk -F"," " " '{print $1  $2 " " $3 " " $4 " "}' | head
+  254  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " " '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  255  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  256  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \","" '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  257  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  258  cat ./hojasDatos/datos_csv/data-0.csv | awk -F"\",\"" '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  259  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  260  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\"" '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  261  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " ,",\"" '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  262  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \,\"" '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  263  cat ./hojasDatos/datos_csv/data-0.csv | awk -F  '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  264  cat ./hojasDatos/datos_csv/data-0.csv | awk -F" "  '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  265  cat ./hojasDatos/datos_csv/data-0.csv | awk -F","  '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  266  cat ./hojasDatos/datos_csv/data-0.csv | awk -F" ,"  '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  267  cat ./hojasDatos/datos_csv/data-0.csv | awk -F","  '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  268  cat ./hojasDatos/datos_csv/data-0.csv | awk -F",""  '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  269  cat ./hojasDatos/datos_csv/data-0.csv | awk -F"," "  '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  270  cat ./hojasDatos/datos_csv/data-0.csv | awk -F" ," "  '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  271  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " ," "  '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  272  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " ,""  '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  273  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " ,"  '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  274  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\,\"  '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  275  cat ./hojasDatos/datos_csv/data-0.csv | awk -F"\,\"  '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  276  cat ./hojasDatos/datos_csv/data-0.csv | awk -F"\",\" '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  277  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\" '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  278  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \",\" '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  279  cat ./hojasDatos/datos_csv/data-0.csv | awk -F " \0\" '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  280  cat ./hojasDatos/datos_csv/data-0.csv | awk -F  '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  281  cat ./hojasDatos/datos_csv/data-0.csv '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  282  cat ./hojasDatos/datos_csv/data-0.csv | awk -F" " '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  283  cat ./hojasDatos/datos_csv/data-0.csv | awk -F"," '{print $1 " " $2 " " $3 " " $4 " "}' | head
+  284  cat ./hojasDatos/datos_csv/data-0.csv 
+  285  cat ./hojasDatos/datos_csv/data-0.csv | head
+  286  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/"//'| head
+  287  vim ./hojasDatos/datos_csv/data-0.csv 
+  288  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/"//'| head
+  289  vim ./hojasDatos/datos_csv/data-0.csv 
+  290  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "}' |sed '1,$ s/"//'| head
+  291  vim ./hojasDatos/datos_csv/data-0.csv 
+  292  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//'| head
+  293  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' | head
+  294  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,2,$ s/"//'| head
+  295  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//'| head
+  296  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/" //'| head
+  297  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/ " //'| head
+  298  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"/ /'| head
+  299  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//'| head
+  300  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g'| head
+  301  cat ./hojasDatos/datos_csv/data-0.csv | head
+  302  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' | head
+  303  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\,\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' | head
+  304  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\"\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' | head
+  305  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\,\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' | head
+  306  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\","\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' | head
+  307  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' | head
+  308  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"  " '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' | head
+  309  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\" " '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' | head
+  310  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' | head
+  311  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\ "" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' | head
+  312  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' | head
+  313  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",2\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' | head
+  314  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' | head
+  315  history 
+  316  cto-de-Programacion/problema1$ cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' | head
+  317  "date time Sensor 1 Sensor 2 Sensor 3" 
+  318  "20110205 0004 0.695095547474921 1.20420474559069 36.4930087141693" 
+  319  "20110205 0005 0.924530632328242 15.4372036340646 24.0251998789608" 
+  320  "20110205 0006 0.0421946528367698 20.8277918631211 22.3746579140425" 
+  321  "20110205 0007 0.162974659353495 17.8794272011146 35.9766245447099" 
+  322  "20110205 0008 0.987090395763516 21.5978813241236 37.5145295634866" 
+  323  "20110205 0009 0.337233242113143 24.1032716119662 16.9998289085925" 
+  324  "20110205 0010 0.865629274398088 4.23047355143353 29.3865369074047" 
+  325  "20110205 0011 0.835247809067369 16.1459700437263 3.63182598724961" 
+  326  "20110205 0012 0.152932410594076 18.0511950515211 29.6567706204951" 
+  327  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' | head
+  328  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g'| head
+  329  history 
+  330  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g'| head
+  331  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g'| sed '1,$ s/date/#date  |head
+cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g'| sed '1,$ s/date/#date g' |head
+  332  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g'| sed '1,$ s/date/#date  |head
+cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g'| sed '1,$ s/date/#date g' | head
+  333  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g'| sed '1,$ s/date/#date  |head
+cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g'| sed '1,$ s/date/#date/g' | head
+  334  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g'| sed '1,$ s/date/#date  |head
+cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g'| sed '1,$ s/date/#date/g' |head
+  335  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g'| sed '1,$ s/date/#date  |head
+cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g' |sed '1,$ s/date/#date/g' |head
+  336* cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g'| sed '1,$ s/date/#date  |head
+cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g' | sed '1,$ 
+  337  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g'| sed '1,$ s/date/#date  |head
+cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g' |head
+  338  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g'| sed '1,$ s/date/#date  |head
+cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g' | head
+  339  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g'| sed '1,$ s/date/#date  |head
+cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' | sed '1,$ s/"//g' | head
+  340  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g'| head
+  341  cat ./hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g'| sed '1,$ s/date/#date/g' |head
+  342  echo problema1.sh >>programa.sh
+  343  ls -l
+  344  vim programa.sh 
+  345  vim problema1.sh 
+  346  rm -r programa.sh 
+  347  cat problema1.sh >>programa.sh
+  348  cat programa.sh 
+  349  vim programa.sh 
+  350  cat programa.sh 
+  351  vim programa.sh 
+  352  cat programa.sh 
+  353  bash programa.sh 
+  354  tree
+  355  cat programa.sh 
+  356  git add --all
+  357  git commit -m "Creando archivos .dat para graficar"
+  358  gist status
+  359  git status
+  360  git push origin proyecto_programado 
+  361  tree
+  362  gnuplot
+  363  apt-get gnuplot
+  364  apt-get install gnuplot
+  365  sudo apt-get install gnuplot
+  366  gnuplot
+  367  cat ./hojasDatos/datos_graf/graf-0.dat 
+  368  cat ./hojasDatos/datos_graf/graf-0.dat  | head
+  369  gnuplot
+  370  tree
+  371  cd ./hojasDatos/datos_graf/
+  372  gnplut
+  373  gnuplot
+  374  cd .
+  375  cd ..
+  376  ls -l
+  377  rm -r ./datos_graf/fig1.png 
+  378  ls -l
+  379  cd ..
+  380  ls -l
+  381  rm -r fig1.png 
+  382  ls -l
+  383  git status
+  384  git add --all
+  385  git status
+  386  cd ./hojasDatos/
+  387  cd datos_graf/
+  388  ls -l
+  389  cat graf-0.dat | head
+  390  cat graf-1.dat | head
+  391  gnuplot
+  392  ls -l
+  393  cd ..
+  394  ls -l
+  395  cd ..
+  396  ls -l
+  397  mkdir plot
+  398  cp ./hojasDatos/datos_graf/graf-0.dat ./plot/
+  399  ls -l ./plot/
+  400  cat ./plot/graf-0.dat 
+  401  gnuplot
+  402  ls -l ./plot/
+  403  ls -l
+  404  sudo chmod ./plot/ -R ugo+rwx 
+  405  cd hojasDatos/
+  406  ls -l
+  407  cd ..
+  408  cd plot/
+  409  ls -l
+  410  sudo chmod -R graf-0.dat ugo+rwx graf-0.dat
+  411  sudo chmod -R graf-0.dat ugo+rwx /DATA/SHARE
+  412  chmod 777 graf-0.dat 
+  413  ls -l
+  414  cd ..
+  415  ls -l
+  416  gnuplot
+  417  cd plot/
+  418  cp ./graf-0.dat graf-0 
+  419  ls -l
+  420  gnuplot
+  421  cd ..
+  422  gnuplot
+  423  cd plot/
+  424  gnuplot
+  425  git add --all
+  426  git commit -m "Primer grafico de Data0"
+  427  git status
+  428  git push origin proyecto_programado 
+  429  git add --all
+  430  git commit -m "Primer grafico de Data0"
+  431  git push origin proyecto_programado 
+  432  history  > history/history-$HOSTNAME-`date +%Y%m%d%H `-ProyectoProgra_1_parte
+  433  cd ..
+  434  cd 
+  435  cd LXS2_bryan/
+  436  history  > history/history-$HOSTNAME-`date +%Y%m%d%H `-ProyectoProgra_1_parte
