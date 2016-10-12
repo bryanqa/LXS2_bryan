@@ -5,7 +5,7 @@ mkdir $DATA/datos_csv
 
 OUT_DATA=$DATA/datos_csv
 
-m=1
+m=0
 
 for i in `find $DATA -name "*.xls" | sort -n` 
 
