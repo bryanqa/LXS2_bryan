@@ -3,10 +3,3 @@ gnuplot> set xrange ["20110205 0000" . "20110209 0259" ]
                                                        ^
          line 0: ':' or keyword 'to' expected
 
-         line 0: warning: Skipping data file with no valid points
-         line 0: warning: Skipping data file with no valid points
-
-gnuplot> plot "./hojasDatos/full_datos/full.dat" using 1:3 with lines title "sensor1", "./hojasDatos/full_datos/full.dat" using 1:4 with linespoint title "sensor2"
-                                                                                                                                                                   ^
-         line 0: x range is invalid
-
