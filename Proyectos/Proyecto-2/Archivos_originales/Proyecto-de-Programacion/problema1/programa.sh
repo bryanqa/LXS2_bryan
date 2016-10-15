@@ -38,30 +38,8 @@ fi 2> errorIf.log
 
 for k in `find $GRAF_DATA -name "*.dat"`
 do	
-	sed sed '1d' $k >> $FULL_DATA/full.dat
+	sed '1d' $k >> $FULL_DATA/full.dat
 	echo "Procesando archivo $k"
 done 2> error3.log
-
-FMT_BEGIN="20110205 0000"
-FMT_END="20110209 0259"
-FMT_X_SHOW=%H: %M
-DATA_DONE=$FULL_DATA/full.dat
-
-graficar()
-{
-	gnuplot << EOF 2> error.log
-
-	set xdata time 
-	set timefmt '%Y%m%d %H%M
-	set xrange ["$FMT_BEGIN" . "$FMT_END" ]
-	set format x "$FMT_X_SHOW"
-	set terminal png
-	set output 'fig2.png'
-	plot "$DATA_DONE" using 1:3 with lines title "sensor1", "$DATA_DONE" using 1:4 with linespoint title "sensor2"
-EOF
-
-}
-
-graficar
 
 
