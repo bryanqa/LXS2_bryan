@@ -3,3 +3,8 @@ gnuplot> set xrange ["20110205 0000" . "20110209 0259" ]
                                                        ^
          line 0: ':' or keyword 'to' expected
 
+
+gnuplot> set format x  %H : %M
+                       ^
+         line 0: invalid expression 
+
