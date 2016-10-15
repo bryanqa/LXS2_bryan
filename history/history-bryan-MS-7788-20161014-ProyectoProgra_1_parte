@@ -1,0 +1,401 @@
+    1  sudo apt-get  install gparted 
+    2  sudo -s
+    3  apt-get install virtualbox
+    4  sudo apt-get install putty
+    5  ifconfig
+    6  ssh sysadmin@192.168..8
+    7  ssh sysadmin@192.168.0.8
+    8  sudo shutdown -P --help 
+    9  sudo shutdown -P 180
+   10  ping 8.8.8.8
+   11  sudo ip addr show 
+   12  ip addr
+   13  sudo apt-get install openssh-server 
+   14  sudo apt-get install netflix
+   15  print
+   16  sudo print
+   17  sudo fdisk -l
+   18  shutdown -P  now
+   19  sudo shutdown -P  now
+   20  ip addr -4
+   21  ip addr --help
+   22  ip addr help
+   23  ifconfig
+   24  tftp
+   25  tftp Documents/
+   26  sudo apt-get install tftp
+   27  tftp Downloads/CentOS-7-x86_64-DVD-1511.iso 
+   28  ls -l
+   29  apt-get install git
+   30  sudo apt-get install git
+   31  git config --global user.name "Bryan Quesada"
+   32  git config --global user.email "bryanq99@gmail.com"
+   33  git clone https://https://github.com/bryanqa/LXS2_bryan_1
+   34  git clone https://github.com/bryanqa/LXS2_bryan_1
+   35  ls -l
+   36  cd LXS2_bryan_1
+   37  ls -l
+   38  cd 
+   39  ls -l
+   40  cd Pictures/
+   41  ls -l
+   42  cd ..
+   43  ls -l
+   44  cd /Pictures
+   45  cd Pictures/
+   46  cp images.jpg /home/bryan/LXS2_bryan_1/test/
+   47  cd 
+   48  cd LXS2_bryan_1/test/
+   49  ls -l
+   50  git status 
+   51  git add images.jpg 
+   52  git commit -m "add images"
+   53  git push origin master 
+   54  ls -l
+   55  git rm -r --cached lvdisplayafter.jpeg 
+   56  cd ..
+   57  git add test/
+   58  git commit -n "remove lvdisplayafter"
+   59  cd LXS2_bryan_1/test/
+   60  cd LXS2_bryan_1
+   61  ls -l
+   62  cd test/
+   63  git status 
+   64  ls -l
+   65  git rm -r --cached lvdisplayafter.jpeg 
+   66  ls -l
+   67  git add lvdisplayafter.jpeg 
+   68  git commit -n "remove lvdisplayafter"
+   69  git status 
+   70  rm -r lvdisplayafter.jpeg 
+   71  ls -l
+   72  git add lvdisplayafter.jpeg 
+   73  git status 
+   74  git commit -m "lvdisplayafter.jpeg"
+   75  git push origin  master
+   76  ls -l
+   77  git rm -r --cached lvdisplayafter.jpeg 
+   78  git status 
+   79  git commit -m "lvdisplayafter.jpeg"
+   80  git push origin  master
+   81  history
+   82  ls -l
+   83  cd LXS2_bryan_1/
+   84  git status 
+   85  git remote -v
+   86  cd LXS2_bryan_1/
+   87  git pull origin master
+   88  ls -l
+   89  cd Proyectos/
+   90  ls -l
+   91  cd Proyecto-1/
+   92  ls -l
+   93  git status
+   94  ls -l
+   95  cd entregables/
+   96  ls -l
+   97  cd ..
+   98  mkdir doc
+   99  ls -l
+  100  cd ..
+  101  cd
+  102  cp Pictures/captura-VG-extendido.jpeg /home/bryan/LXS2_bryan_1/Proyectos/Proyecto-1/entregables/
+  103  cp Documents/proyecto1.txt /home/bryan/LXS2_bryan_1/Proyectos/Proyecto-1/doc/
+  104  cd LXS2_bryan_1/Proyectos/Proyecto-1/
+  105  ls -l
+  106  cd doc/
+  107  ls -l
+  108  cd ..
+  109  cd entregables/
+  110  ls -l
+  111  git status 
+  112  cd ..
+  113  git add Proyectos/
+  114  git commit -m "Final Proyecto1"
+  115  git status 
+  116  git push origin master 
+  117  git pull origin master 
+  118  cd Proyectos/Proyecto-1/
+  119  LS -L
+  120  ls -l
+  121  cd doc/
+  122  ls -l
+  123  cd ..
+  124  cd entregables/
+  125  ls -l
+  126  git pull origin master 
+  127  cd..
+  128  cd
+  129  rm -rf LXS2_bryan_1
+  130  ls -l
+  131  git clone https://github.com/bryanqa/LXS2_bryan_1
+  132  cd LXS2_bryan_1/
+  133  ls -l
+  134  cd ..
+  135  cp Pictures/captura-VG-extendido.jpeg /LX
+  136  SU
+  137  SUDO -S
+  138  sudo -s
+  139  cp Pictures/captura-VG-extendido.jpeg LXS2_bryan_1/Proyectos/Proyecto-1/entregables/
+  140  cd LXS2_bryan_1/Proyectos/Proyecto-1/
+  141  ls -l
+  142  mkdir doc
+  143  cd ..
+  144  cp Documents/proyecto1.txt LXS2_bryan_1/Proyectos/Proyecto-1/doc/
+  145  cd LXS2_bryan_1/Proyectos/Proyecto-1/
+  146  ls -l
+  147  cd doc/
+  148  ls -l
+  149  cap proyecto1.txt 
+  150  cd ..
+  151  git add Proyectos/
+  152  git commit -m "Proyecto1"
+  153  git remote -v
+  154  git push origin master
+  155  git pull origin master
+  156  ssh sysadmin@192.168.14
+  157  init 0
+  158  su init 0
+  159  su
+  160  sudo init 0
+  161  apt-get install openssh-server
+  162  ip addr
+  163  apt-get install openssh-server
+  164  root
+  165  su
+  166  sudo -s
+  167  ip addr
+  168  cd LXS2_bryan/
+  169  git status
+  170  git branch proyecto_programado
+  171  git status
+  172  git checkout proyecto_programado 
+  173  git status
+  174  cd Proyectos/Proyecto-2/Archivos_originales/Proyecto-de-Programacion/
+  175  ls -l
+  176  cd problema1/
+  177  ls -l
+  178  cd hojasDatos/
+  179  ls -l
+  180  rm -rf- archivo1.csv 
+  181  rm -r archivo1.csv 
+  182  ls -l
+  183  cd ..
+  184  ls -l
+  185  clear 
+  186  xls2csv hojasDatos/datos1.xls>>data-1.csv
+  187  ls -l hojasDatos/
+  188  ls -l
+  189  rm -r data-1.csv 
+  190  cd hojasDatos/
+  191  ls -l
+  192  xls2csv datos1.xls>>data-1.csv
+  193  ls -l
+  194  cd ..
+  195  ls -l
+  196  cd Archivos_originales/
+  197  ls -l
+  198  cd Proyecto-de-Programacion/
+  199  LS -L
+  200  ls -l
+  201  cd problema1/
+  202  ls -l
+  203  vim problema1.sh
+  204  sudo pat-get install vim
+  205  sudo apt-get install vim
+  206  vim problema1.sh
+  207  ls -l
+  208  cat problema1.sh 
+  209  git add ../problema1/
+  210  git log
+  211  git config --global 
+  212  git config --global user.name "Bryan Quesada"
+  213  git config --global user.email bryanq99@gmail.com
+  214  git status
+  215  git commit - m "Creacion de archivos csv"
+  216  git commit -m "Creacion de archivos csv"
+  217  git status
+  218  git add ../../Proyecto-de-Programacion/
+  219  git commit -m "Copia de archivos de datos para proyecto de progra"
+  220  git status
+  221  git push origin proyecto_programado 
+  222  ls -l
+  223  cd hojasDatos/
+  224  ls -l
+  225  rm -r data-1.csv 
+  226  cd ..
+  227  history 
+  228  ls -l
+  229  xls2csv datos1.xls>>data-1.csv
+  230  cd hojasDatos/
+  231  ls -l
+  232  xls2csv datos1.xls>>data-1.csv
+  233  cd ..
+  234  ls -l
+  235  bash problema1.sh 
+  236  cat problema1.sh 
+  237  DATA=./hojasDatos
+  238  mkdir %DATA/datos_csv
+  239  cd ./hojasDatos/
+  240  mkdir  ./hojasDatos/datos_csv
+  241  ls -l
+  242  cd ..
+  243  ls -l
+  244  DATA=./hojasDatos
+  245  mkdir ./hojasDatos/datos_csv
+  246  DATA=./hojasDatos
+  247  mkdir $DATA/datos_csv
+  248  rm -rf ./hojasDatos/datos_csv/
+  249  cat problema1.sh 
+  250  bash problema1.sh 
+  251  history 
+  252  cat problema1.sh 
+  253  DATA=./hojasDatos
+  254  vim problema1.sh 
+  255  bash problema1.sh 
+  256  ls -l
+  257  tree
+  258  sudo apt-get install tree
+  259  tree
+  260  ls -l ./hojasDatos/datos_csv/
+  261  git add ../problema1/
+  262  git commit -m "Modificacion comando mkdir"
+  263  git push origin proyecto_programado 
+  264  ls -l
+  265  cs ..
+  266  cd ..
+  267  cd .
+  268  cd ../
+  269  cd ..
+  270  cd .
+  271  exit
+  272  logout
+  273  history
+  274  git sta
+  275  git status 
+  276  logout 
+  277  history
+  278  init0
+  279  init 0
+  280  sudo init 0
+  281  history
+  282  cd Proyectos/Proyecto-2/Archivos_originales/Proyecto-de-Programacion/problema1/
+  283  ls -l
+  284  cat problema1.sh 
+  285  cat programa.sh 
+  286  vim programa.sh 
+  287  ls -l
+  288  cp ./hojasDatos/datos_graf/graf-0.dat ./plot/
+  289  cp ./hojasDatos/datos_graf/graf-1.dat ./plot/
+  290  cp ./hojasDatos/datos_graf/graf-2.dat ./plot/
+  291  cp ./hojasDatos/datos_graf/graf-3.dat ./plot/
+  292  cp ./hojasDatos/datos_graf/graf-4.dat ./plot/
+  293  cp ./hojasDatos/datos_graf/graf-5.dat ./plot/
+  294  ls -l ./plot/
+  295  chmod 777 -R plot/
+  296  ls -l ./plot/
+  297  cd..
+  298  ls -l
+  299  cat programa.sh 
+  300  vim programa.sh 
+  301  cat programa.sh 
+  302  bash programa.sh 
+  303  ls -l
+  304  bash programa.sh 
+  305  vim programa.sh 
+  306  ls -l
+  307  cat error.log 
+  308  bash programa.sh 
+  309  vim programa.sh 
+  310  ls -l
+  311  ls -l ./hojasDatos/
+  312  ls -l ./hojasDatos/full_datos/
+  313  cat ./hojasDatos/full_datos/full.dat 
+  314  git add -all
+  315  git add --all
+  316  git commit -m "Modificacion de programa.sh para graficos(no funciona)"
+  317  git push origin proyecto_programado 
+  318  cd LXS2_bryan/
+  319  git status
+  320  cd Proyectos/Proyecto-2/Archivos_originales/Proyecto-de-Programacion/problema1/
+  321  LS -L
+  322  ls -l
+  323  cat programa.sh 
+  324  vim programa.sh 
+  325  ls -l
+  326  ls -l ./plot/
+  327  cat programa.sh 
+  328  ls -l ./hojasDatos/
+  329  ls -l ./hojasDatos/full_datos/
+  330  rm -rf ./hojasDatos/full_datos/
+  331  ls -l
+  332  rm -r errorIf.log 
+  333  rm -r error3.log 
+  334  cat programa.sh 
+  335  bash programa.sh 
+  336  ls -l
+  337  cat error3.log 
+  338  ls -l ./hojasDatos/full_datos/
+  339  vim programa.sh 
+  340  history |
+  341  history 
+  342  rm -rf ./hojasDatos/full_datos/
+  343  rm -r errorIf.log
+  344  rm -r error3.log 
+  345  ls -l
+  346  bash programa.sh 
+  347  cat error3.log 
+  348  ls -l ./hojasDatos/full_datos/
+  349  cat ./hojasDatos/full_datos/full.dat 
+  350  git add -a
+  351  git add -all
+  352  git add --all
+  353  git commit -m "Full data.dat esta funcionando"
+  354  git push origin proyecto_programado 
+  355  vim programa.sh 
+  356  bash programa.sh 
+  357  vim programa.sh 
+  358  cd hojasDatos/full_datos/
+  359  ls -l
+  360  cd ..
+  361  ls -l
+  362  cd ..
+  363  ls -l
+  364  git add --all
+  365  git commit -m "Programa.sh esta funcionando"
+  366  git status
+  367  git commit -m "Programa.sh esta funcionando"
+  368  git push origin proyecto_programado 
+  369  ex
+  370  cd ..
+  371  mv -rf Archivos_originales/Proyecto-de-Programacion/ 
+  372  mv -f Archivos_originales/Proyecto-de-Programacion/ 
+  373  mv  Archivos_originales/Proyecto-de-Programacion/ 
+  374  mv  Archivos_originales/Proyecto-de-Programacion/ ./
+  375  ls -l
+  376  ls -l ./Archivos_originales/
+  377  git pull origin master 
+  378  git pull origin proyecto_programado 
+  379  git status
+  380  git pull origin master 
+  381  git pull origin proyecto_programado 
+  382  git checkout proyecto_programado 
+  383  ex
+  384  history  > history/history-$HOSTNAME-`date +%Y%m%d `-ProyectoProgra_1_parte
+  385  cd ..
+  386  history  > history/history-$HOSTNAME-`date +%Y%m%d `-ProyectoProgra_1_parte
+  387  git add ./history/
+  388  git status 
+  389  git commit -m "History final 1era parte proyecto"
+  390  git status 
+  391  history
+  392  cd
+  393  history 
+  394  rm -rf ./LXS2_bryan/
+  395  git clone https://github.com/bryanqa/LXS2_bryan.git
+  396  cd LXS2_bryan/
+  397  history
+  398  git status 
+  399  git checkout proyecto_programado
+  400  git status 
+  401  history  > history/history-$HOSTNAME-`date +%Y%m%d `-ProyectoProgra_1_parte
