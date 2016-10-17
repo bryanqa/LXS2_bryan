@@ -1,0 +1,5 @@
+
+gnuplot> set format x %m:%Y
+                      ^
+         line 0: invalid expression 
+
