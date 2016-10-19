@@ -102,8 +102,8 @@ graficar()
 	set title "Grafico de Luz y Agua 2016"
 	set ylabel "Colones"
         set output 'graf.png'
-        plot "./plot/graf-agua.dat" using 1:2 with linespoint title "Agua"
-	replot "./plot/graf-luz.dat" using 1:4 with lines title "Luz"
+        plot "./plot/graf-1.dat" using 1:2 with linespoint title "graph1"
+	replot "./plot/graf-2.dat" using 1:4 with lines title "graph2"
 
 EOF
 
