@@ -1,5 +1,1 @@
-
-gnuplot> set format x %m:%Y
-                      ^
-         line 0: invalid expression 
-
+         line 0: warning: Skipping data file with no valid points
