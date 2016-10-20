@@ -94,7 +94,8 @@ graficar()
 {
         gnuplot << EOF 2> error.log
 
-        set xdata time 
+
+ 	set xdata time 
         set timefmt '%m'
         set xrange ["012016" : "062016" ]
         set format x '%m'
@@ -102,8 +103,10 @@ graficar()
 	set title "Grafico de Luz y Agua 2016"
 	set ylabel "Colones"
         set output 'graf.png'
-        plot "./plot/graf-1.dat" using 1:2 with linespoint title "graph1"
-	replot "./plot/graf-2.dat" using 1:4 with lines title "graph2"
+	plot "./plot/graf-agua.dat" using 1:2 with linespoint title "Agua", \
+	     "./plot/graf-luz.dat" using 1:2 with linespoint title "Luz"
+
+
 
 EOF
 

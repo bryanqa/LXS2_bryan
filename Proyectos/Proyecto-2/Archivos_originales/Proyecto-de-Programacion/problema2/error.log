@@ -1,8 +1,0 @@
-         line 0: warning: Skipping unreadable file "./plot/graf-1.dat"
-         line 0: No data in plot
-
-
-gnuplot> replot "./plot/graf-2.dat" using 1:4 with lines title "graph2"
-         ^
-         line 0: no previous plot
-
