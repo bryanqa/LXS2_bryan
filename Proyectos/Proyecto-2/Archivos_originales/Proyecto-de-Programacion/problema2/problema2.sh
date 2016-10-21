@@ -1,10 +1,12 @@
 #!/bin/bash
 
+
+sh ./remove.sh
 DATA=./hojasDatos
 OUT_DATA=$DATA/datos_csv
 GRAF_DATA=./plot
 mkdir $DATA/datos_csv
-mkdir ./plot
+mkdir $GRAF_DATA
 mkdir $FULL_DATA
 m=0
 
