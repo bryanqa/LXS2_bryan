@@ -1,0 +1,279 @@
+En la carpeta hojas de datos tenemos Varios archivos en formato .xls.
+
+bills01_2012.xls
+bills02_2012.xls
+bills03_2012.xls
+bills04_2012.xls
+bills05_2012.xls
+bills06_2012.xls
+
+Ejemplo de archivo bills01_2012.xls
+
+ Servicios	Monto Total	Monto Unitario
+Agua	14498.00	1449.80
+Luz	41165.00	4573.89
+Teléfono	640.00	71.11
+Celular	100.00	11.11
+Internet	20440.00	2271.11
+Alquiler	332500.00	36944.44
+Aseo	18000.00	2000.00
+Cable	10000.00	1111.11
+Asociación	0.00	0.00
+
+
+
+En este ejemplo estoy utlizando Ubuntu 14.04 para trabajar.
+
+Para cambiar el formato tenemos instalar el programa catdoc utilizando el siguente comando:
+
+sudo apt-get install catdoc
+
+ 
+Una vez instalado el programa la sintaxis para cambiar convertir los archivos seria:
+
+xls2csv test.xls > test.csv
+
+En este momento no vamos utilizar este comando sino hasta la creacion del script.
+
+Creamos un archivo llamdo problema2.sh
+
+Vim problema2.sh
+
+
+Especificamos el lenguaje que vamos a uilizar:
+
+#!/bin/bash
+
+
+Asignamos variables y creamos carpetas
+
+sh ./remove.sh
+DATA=./hojasDatos
+OUT_DATA=$DATA/datos_csv
+GRAF_DATA=./plot
+mkdir $DATA/datos_csv
+mkdir $GRAF_DATA
+mkdir $FULL_DATA
+
+
+
+Buscamos archivos llamados .xls y convertimos los archivos a .csv 
+
+m=0
+
+for i in `find $DATA -name "*.xls" | sort -n`
+
+do
+        echo "Procesando archivo $i"
+
+        xls2csv $i > $OUT_DATA/data-0$m.csv
+        let m=m+1
+
+
+done 2> error1.log
+
+Luego, buscamos todos los archivos llamados .csv y le eliminamos las comas y demas caracteres que pueden ocasionar problemas para el grafico.
+Luego guardamos la salida del comando en un archivo .dat
+
+
+for e in `find $OUT_DATA -name "*00.csv"`
+do
+        echo "Dando formato de datos para graficar Luz Enero"
+	cat $e | awk -F "\",\"" 'FNR == 4 {print "012016" " " $2 " " $1 " " }' |sed '1,$ s/"//g'| sed '1,$ s/Luz/#Luz/g' > $GRAF_DATA/graf-luz.dat
+		
+
+Hacemos lo mismo para odo los archivos pero cambiamos el nombre del archivo y el mes.
+
+
+
+Una vez creados todos los archivos .dat ya podemos graficar el resultado final.
+
+
+done 2> error10.log
+
+
+graficar()
+{
+        gnuplot << EOF 2> error.log
+
+
+ 	set xdata time 
+        set timefmt '%m'
+        set xrange ["012016" : "062016" ]
+        set format x '%m'
+        set terminal png
+	set title "Grafico de Luz y Agua 2016"
+	set ylabel "Colones"
+        set output 'graf.png'
+	plot "./plot/graf-agua.dat" using 1:2 with linespoint title "Agua", \
+	     "./plot/graf-luz.dat" using 1:2 with linespoint title "Luz"
+
+
+
+EOF
+
+}
+
+graficar
+
+
+Ya quedaria listo el grafico.
+
+
+
+
+
+
+Y el script final seria.
+
+
+#!/bin/bash
+
+
+sh ./remove.sh
+DATA=./hojasDatos
+OUT_DATA=$DATA/datos_csv
+GRAF_DATA=./plot
+mkdir $DATA/datos_csv
+mkdir $GRAF_DATA
+mkdir $FULL_DATA
+m=0
+
+for i in `find $DATA -name "*.xls" | sort -n`
+
+do
+        echo "Procesando archivo $i"
+
+        xls2csv $i > $OUT_DATA/data-0$m.csv
+        let m=m+1
+
+done 2> error1.log
+
+for e in `find $OUT_DATA -name "*00.csv"`
+do
+        echo "Dando formato de datos para graficar Luz Enero"
+	cat $e | awk -F "\",\"" 'FNR == 4 {print "012016" " " $2 " " $1 " " }' |sed '1,$ s/"//g'| sed '1,$ s/Luz/#Luz/g' > $GRAF_DATA/graf-luz.dat
+		
+
+done 2> error2.log
+
+for e in `find $OUT_DATA -name "*01.csv"`
+do
+        echo "Dando formato de datos para graficar Luz Febrero"
+	cat $e | awk -F "\",\"" 'FNR == 4 {print "022016" " " $2 " " $1 " " }' |sed '1,$ s/"//g'| sed '1,$ s/Luz/#Luz/g' >> $GRAF_DATA/graf-luz.dat
+
+done 2> error3.log
+		
+
+for e in `find $OUT_DATA -name "*02.csv"`
+do
+        echo "Dando formato de datos para graficar Luz Marzo"
+	cat $e | awk -F "\",\"" 'FNR == 4 {print "032016" " " $2 " " $1 " " }' |sed '1,$ s/"//g' | sed '1,$ s/Luz/#Luz/g' >> $GRAF_DATA/graf-luz.dat
+		
+
+done 2> error4.log
+
+for e in `find $OUT_DATA -name "*00.csv"`
+do
+        echo "Dando formato de datos para graficar Luz Enero"
+	cat $e | awk -F "\",\"" 'FNR == 3 {print "012016" " " $2 " " $1 " " }' |sed '1,$ s/"//g'| sed '1,$ s/Agua/#Agua/g' > $GRAF_DATA/graf-agua.dat
+		
+
+done 2> error5.log
+
+for e in `find $OUT_DATA -name "*01.csv"`
+do
+        echo "Dando formato de datos para graficar Luz Febrero"
+	cat $e | awk -F "\",\"" 'FNR == 3 {print "022016" " " $2 " " $1 " " }' |sed '1,$ s/"//g'| sed '1,$ s/Agua/#Agua/g' >> $GRAF_DATA/graf-agua.dat
+
+done 2> error6.log
+
+for e in `find $OUT_DATA -name "*02.csv"`
+do
+        echo "Dando formato de datos para graficar Luz Marzo"
+	cat $e | awk -F "\",\"" 'FNR == 3 {print "032016" " " $2 " " $1 " " }' |sed '1,$ s/"//g'| sed '1,$ s/Agua/#Agua/g' >> $GRAF_DATA/graf-agua.dat
+
+
+done 2> error7.log
+
+for e in `find $OUT_DATA -name "*03.csv"`
+do
+        echo "Dando formato de datos para graficar Luz Abril"
+	cat $e | awk -F "\",\"" 'FNR == 3 {print "042016" " " $2 " " $1 " " }' |sed '1,$ s/"//g'| sed '1,$ s/Agua/#Agua/g' >> $GRAF_DATA/graf-agua.dat
+
+
+done 2> error8.log
+
+for e in `find $OUT_DATA -name "*04.csv"`
+do
+        echo "Dando formato de datos para graficar Luz Mayo"
+	cat $e | awk -F "\",\"" 'FNR == 3 {print "052016" " " $2 " " $1 " " }' |sed '1,$ s/"//g'| sed '1,$ s/Agua/#Agua/g' >> $GRAF_DATA/graf-agua.dat
+
+
+
+done 2> error9.log
+
+for e in `find $OUT_DATA -name "*05.csv"`
+do
+        echo "Dando formato de datos para graficar Luz Junio"
+	cat $e | awk -F "\",\"" 'FNR == 3 {print "062016" " " $2 " " $1 " " }' |sed '1,$ s/"//g'| sed '1,$ s/Agua/#Agua/g' >> $GRAF_DATA/graf-agua.dat
+
+done 2> error10.log
+
+
+graficar()
+{
+        gnuplot << EOF 2> error.log
+
+
+ 	set xdata time 
+        set timefmt '%m'
+        set xrange ["012016" : "062016" ]
+        set format x '%m'
+        set terminal png
+	set title "Grafico de Luz y Agua 2016"
+	set ylabel "Colones"
+        set output 'graf.png'
+	plot "./plot/graf-agua.dat" using 1:2 with linespoint title "Agua", \
+	     "./plot/graf-luz.dat" using 1:2 with linespoint title "Luz"
+
+
+
+EOF
+
+}
+
+graficar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

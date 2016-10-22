@@ -1,0 +1,232 @@
+En la carpeta hojas de datos tenemos Varios archivos en formato .xls.
+
+datos1.xls
+datos2.xls
+datos3.xls
+datos4.xls
+datos5.xls
+
+
+Ejemplo de datos1.xls:
+
+date	time	Sensor 1	Sensor 2	Sensor 3
+20110205	0004	0.3079023026	6.8345927066	6.368419928
+20110205	0005	0.1509973945	16.7396162656	38.5001475554
+20110205	0006	0.9796141537	19.0334214853	5.4373118623
+20110205	0007	0.1916671059	12.4248070983	24.7384021221
+20110205	0008	0.0942108157	22.9620807907	10.7791800065
+20110205	0009	0.1179375821	12.542124234	0.6077311566
+20110205	0010	0.6168692512	12.1619235229	35.093149947
+20110205	0011	0.6539288476	13.4842259255	37.0577234344
+20110205	0012	0.9195596753	11.6113621692	2.6371000417
+20110205	0013	0.4073007846	12.7233764572	0.1340990702
+20110205	0014	0.6994922384	23.9450322292	29.948040249
+20110205	0015	0.3355181011	22.241080898	11.2377562445
+20110205	0016	0.4385690746	1.2397098195	14.5676836983
+20110205	0017	0.5667211576	15.5263962999	31.5314683275
+20110205	0018	0.718120095	22.4360587662	18.8929773819
+20110205	0019	0.558254152	12.7474701176	34.5433456502
+
+
+Mas adelante necesitamos graficar estos archivos, por lo que debemos covertir el format .xls a .csv.
+
+
+En este ejemplo estoy utlizando Ubuntu 14.04 para trabajar.
+
+Para cambiar el formato tenemos instalar el programa catdoc utilizando el siguente comando:
+
+sudo apt-get install catdoc
+
+ 
+Una vez instalado el programa la sintaxis para cambiar convertir los archivos seria:
+
+xls2csv test.xls > test.csv
+
+En este momento no vamos utilizar este comando sino hasta la creacion del script.
+
+Creamos un archivo llamado programa.sh
+
+vim programa.sh
+
+Especificamos el lenguaje que vamos a uilizar:
+
+#!/bin/bash
+
+
+Asignamos variables y creamos carpetas
+
+DATA=./hojasDatos
+OUT_DATA=$DATA/datos_csv
+GRAF_DATA=$DATA/datos_graf
+FULL_DATA=$DATA/full_datos
+mkdir $DATA/datos_csv
+mkdir $GRAF_DATA
+mkdir $FULL_DATA 
+
+
+Buscamos archivos llamados .xls y convertimos los archivos a .csv 
+
+m=0
+
+for i in `find $DATA -name "*.xls" | sort -n` 
+
+do 
+	echo "Procesando archivo $i"
+
+	xls2csv $i > $OUT_DATA/data-$m.csv
+	let m=m+1
+done 2> error1.log
+
+
+
+Luego, buscamos los archivos llamados .csv y le eliminamos las comas y demas caracteres que pueden ocasionar problemas para el grafico.
+Luego guardamos la salida del comando en un archivo .dat
+
+
+
+for e in `find $OUT_DATA -name "*.csv" | sort -n`
+do
+	echo "Dando formato de datos para graficar el archivo $e"
+	cat $e | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g'| sed '1,$ s/date/#date/g' > $GRAF_DATA/graf-$m.dat
+					let m=m+1
+
+
+Una vez que tenemos los archivos creados, creamos un archivo final llamado full.dat que va a contener toda la informacion.
+
+if [ -a $FULL_DATA/full.dat ]
+then
+	rm $FULL_DATA/full.dat
+	echo "Archivo full.dat borrado"
+fi 2> errorIf.log
+
+for k in `find $GRAF_DATA -name "*.dat"`
+do	
+	sed '1d' $k >> $FULL_DATA/full.dat
+	echo "Procesando archivo $k"
+done 2> error3.log
+
+
+Creamos variables con la informacion que vamos a utilizar con gnuplot.
+
+
+FMT_BEGIN="20110205 0000"
+FMT_END="20110209 0259"
+FMT_X_SHOW=" %H : %M"
+DATA_DONE=$FULL_DATA/full.dat
+
+
+Ahora utlizaremos gnuplot para crear el grafico:
+
+
+graficar()
+{
+        gnuplot << EOF 2> error.log
+
+        set xdata time 
+        set timefmt '%Y%m%d %H%M
+        set xrange ["$FMT_BEGIN" . "$FMT_END" ]
+        set format x $FMT_X_SHOW
+        set terminal png
+        set output 'fig2.png'
+        plot "$DATA_DONE" using 1:3 with lines title "sensor1", "$DATA_DONE" using 1:4 with linespoint title "sensor2"
+EOF
+
+}
+
+graficar
+
+
+Tennemos que abrir el archivo fig2.png para confirmar la imagen se creo correctamente.
+
+
+
+Asi quedaria el script final:
+
+
+#!/bin/bash
+
+DATA=./hojasDatos
+OUT_DATA=$DATA/datos_csv
+GRAF_DATA=$DATA/datos_graf
+FULL_DATA=$DATA/full_datos
+mkdir $DATA/datos_csv
+mkdir $GRAF_DATA
+mkdir $FULL_DATA
+m=0
+
+for i in `find $DATA -name "*.xls" | sort -n` 
+
+do 
+	echo "Procesando archivo $i"
+
+	xls2csv $i > $OUT_DATA/data-$m.csv
+	let m=m+1
+done 2> error1.log
+
+m=0
+
+for e in `find $OUT_DATA -name "*.csv" | sort -n`
+do
+	echo "Dando formato de datos para graficar el archivo $e"
+	cat $e | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 " "}' |sed '1,$ s/"//g'| sed '1,$ s/date/#date/g' > $GRAF_DATA/graf-$m.dat
+					let m=m+1
+done 2> error2.log
+
+
+#CREANDO GRAFICOS DE TODOS LOS DATOS
+
+if [ -a $FULL_DATA/full.dat ]
+then
+	rm $FULL_DATA/full.dat
+	echo "Archivo full.dat borrado"
+fi 2> errorIf.log
+
+for k in `find $GRAF_DATA -name "*.dat"`
+do	
+	sed '1d' $k >> $FULL_DATA/full.dat
+	echo "Procesando archivo $k"
+done 2> error3.log
+
+FMT_BEGIN="20110205 0000"
+FMT_END="20110209 0259"
+FMT_X_SHOW=" %H : %M"
+DATA_DONE=$FULL_DATA/full.dat
+
+graficar()
+{
+        gnuplot << EOF 2> error.log
+
+        set xdata time 
+        set timefmt '%Y%m%d %H%M
+        set xrange ["$FMT_BEGIN" . "$FMT_END" ]
+        set format x $FMT_X_SHOW
+        set terminal png
+        set output 'fig2.png'
+        plot "$DATA_DONE" using 1:3 with lines title "sensor1", "$DATA_DONE" using 1:4 with linespoint title "sensor2"
+EOF
+
+}
+
+graficar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
